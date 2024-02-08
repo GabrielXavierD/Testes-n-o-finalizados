@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="file" id="imageInput" accept="image/*">
+    <canvas id="imageCanvas" width="800" height="600"></canvas>
+    <div id="filterOptions">
+        <button id="applyBrightness">Brilho</button>
+        <button id="applyContrast">Contraste</button>
+        <button id="applySaturation">Saturação</button>
+    </div>
+    <button id="saveImage">Salvar Imagem</button>
+
+    <script src="fabric.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

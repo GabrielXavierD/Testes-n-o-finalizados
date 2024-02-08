@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#imageCanvas {
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+
+#filterOptions {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+}
